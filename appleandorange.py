@@ -6,5 +6,8 @@ orange = input("Please quantify how many oranges you need to purchase: ")
 
 apple_string = int(apple)
 orange_string = int(orange)
-apple_total = (apple * price_apple)
-orange_total = (orange * price_orange)
+apple_total = (apple_string * price_apple)
+orange_total = (orange_string * price_orange)
+grand_total = (apple_total + orange_total)
+
+print(f"The total amount is {grand_total}.")
