@@ -11,5 +11,5 @@ orange_total = (orange * price_orange)
 grand_total = (apple_total + orange_total)
 
 #Attached a comma feature for easy-reading numerical output.
-print(f"\nThe total amount is {grand_total: ,} PHP.")
+print(f"\nThe total amount is {grand_total:,} PHP.")
 
