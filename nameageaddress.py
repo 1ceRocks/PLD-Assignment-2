@@ -6,4 +6,4 @@ userAddress = input("\nEnter your ADDRESS here. \n> ")
 
 #Annexed an additional print response acting as a comment on a user input.
 print("\nPython has inputted your personal information.")
-print(f"\nHi, my name is {userName}. I am{userAge: .0f} years old and I live in {userAddress}.")
+print(f"\nHi, my name is {userName}. I am {userAge:.0f} years old and I live in {userAddress}.")
