@@ -1,13 +1,15 @@
-print("The Price of Apple is 20, while the Price of Orange is 25")
+#Rendered a welcoming greet to a user after the initialization of the program.
+print("\nWelcome to Villariza Foods! \nThe Price of an Apple is 20 PHP, while the Price of an Orange is 25 PHP.")
 price_apple = 20
 price_orange = 25
-apple = input("Please quantify how many apples you need to purchase: ")
-orange = input("Please quantify how many oranges you need to purchase: ")
 
-apple_string = int(apple)
-orange_string = int(orange)
-apple_total = (apple_string * price_apple)
-orange_total = (orange_string * price_orange)
+apple = int(input("\nPlease quantify how many apples you need to purchase... \n> Quantity: "))
+orange = int(input("\nPlease quantify how many oranges you need to purchase... \n> Quantity: "))
+
+apple_total = (apple * price_apple)
+orange_total = (orange * price_orange)
 grand_total = (apple_total + orange_total)
 
-print(f"The total amount is {grand_total}.")
+#Attached a comma feature for easy-reading numerical output.
+print(f"\nThe total amount is {grand_total: ,} PHP.")
+
