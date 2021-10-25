@@ -7,7 +7,7 @@ apple = float(input("\nWhat is the cost of an apple per item? \n> PHP: "))
 if money >= apple:
     exchange = money % apple
     apple_maxQuantity = int(money // apple)
-    print(f"\nYou can buy {apple_maxQuantity: ,} apples and your change is {exchange: .2f} PHP.")
+    print(f"\nYou can buy {apple_maxQuantity: ,} apples and your change is {exchange:.2f} PHP.")
 else:
     moneyShortage = float(apple - money)
-    print(f"\nSorry, but you do not have enough money to buy an apple. You need {moneyShortage: .2f} PHP in order to purchase a single apple.")
+    print(f"\nSorry, but you do not have enough money to buy an apple. You need {moneyShortage:.2f} PHP in order to purchase a single apple.")
